@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* Styles for positioning the paragraph under the image */
+.image-and-content {
+  display: flex; /* Use flexbox for layout */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.article-image {
+  flex: auto; /* Don't allow image to grow or shrink */
+  width: 40%; /* Set the width of the image */
+  max-width: 400px; /* Maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between image and content */
+}
+
+.content1 {
+  font-family: Georgia; /* Font family for content */
+  flex: 1; /* Allow content to grow to fill available space */
+  width: 55%; /* Set the width of the content */
+  max-width: 440px; /* Maximum width for the content */
+  font-size: 15px; /* Font size for content */
+  text-align: center; /* Center align text */
+}
+
+.content2 {
+  font-family: Garamond; /* Font family for content */
+  font-size: small; /* Font size for content */
+  column-count: 3; /* Divide content into three columns */
+  flex: 1; /* Allow content to grow to fill available space */
+}
+
+/* Resetting some default browser styles */
+body, h1, h2, p, small {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+}
+
+body {
+  line-height: 1.4; /* Set line height for readability */
+  background-color: #f9f9f9; /* Background color for the body */
+}
+
+#container {
+  max-width: 800px; /* Maximum width for the container */
+  margin: 0 auto; /* Center align the container */
+  padding: 20px; /* Padding inside the container */
+  background-color: #fff; /* Background color for the container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+header {
+  text-align: center; /* Center align text */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+h1 {
+  font-size: 10px; /* Font size for the heading */
+  color: #e68b15; /* Text color for the heading */
+  text-align: left; /* Left align text */
+}
+
+h2 {
+  font-size: small; /* Font size for subheadings */
+  color: #333; /* Text color for subheadings */
+  margin-top: 0px; /* Space above subheadings */
+  margin-bottom: 0px; /* Space below subheadings */
+}
+
+h3 {
+  font-size: 30px; /* Font size for sub-subheadings */
+  margin-top: 0px; /* Space above sub-subheadings */
+  margin-bottom: 0px; /* Space below sub-subheadings */
+}
+
+p {
+  margin-bottom: 0.5em; /* Space below paragraphs */
+}
+
+strong {
+  font-weight: bold; /* Bold font for strong text */
+}
+
+
