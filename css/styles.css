@@ -8,8 +8,8 @@
 
 .article-image {
   flex: auto; /* Don't allow image to grow or shrink */
-  width: 40%; /* Set the width of the image */
-  max-width: 400px; /* Maximum width for the image */
+  width: 50%; /* Set the width of the image */
+  max-width: 500px; /* Maximum width for the image */
   height: auto; /* Maintain aspect ratio */
   margin-right: 20px; /* Space between image and content */
 }
@@ -17,8 +17,8 @@
 .content1 {
   font-family: Georgia; /* Font family for content */
   flex: 1; /* Allow content to grow to fill available space */
-  width: 55%; /* Set the width of the content */
-  max-width: 440px; /* Maximum width for the content */
+  width: 65%; /* Set the width of the content */
+  max-width: 520px; /* Maximum width for the content */
   font-size: 15px; /* Font size for content */
   text-align: center; /* Center align text */
 }
@@ -68,6 +68,7 @@ h2 {
 }
 
 h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px; /* Font size for sub-subheadings */
   margin-top: 0px; /* Space above sub-subheadings */
   margin-bottom: 0px; /* Space below sub-subheadings */
@@ -79,6 +80,9 @@ p {
 
 strong {
   font-weight: bold; /* Bold font for strong text */
+}
+strong {
+  color: orange;
 }
 
 
